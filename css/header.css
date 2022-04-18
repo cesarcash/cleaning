@@ -1,0 +1,35 @@
+@import './menu.css';
+
+.header-content {
+    position: relative;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-block-start: .8rem;
+    padding-block-end: .8rem;
+}
+
+.header-content header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    /* flex: 1; */
+    inline-size: 6.3125rem;
+}
+
+.header-logo img {
+    vertical-align: middle;
+    inline-size: 100%;
+}
+
+.header-menu {
+    /* flex: 1; */
+}
+
+.header-menu .icon-menu {
+    color: var(--green);
+    font-size: 2rem;
+    cursor: pointer;
+}

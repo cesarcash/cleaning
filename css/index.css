@@ -1,0 +1,45 @@
+@import './fonts.css';
+@import './header.css';
+@import './section.css';
+@import './button.css';
+
+:root {
+    font-size: 16px;
+    --blue10: #1e97db;
+    --blue20: #9cd9ff;
+    --black: #000000;
+    --green: #6bbb3b;
+    --white: #ffffff;
+    --fontFamily: 'Montserrat', sans-serif;
+    --headLine1: bold 95px/153px var(--fontFamily);
+    --headLine2: bold 59px/95px var(--fontFamily);
+    --headLine3: bold 48px/77px var(--fontFamily);
+    --headLine4: bold 34px/55px var(--fontFamily);
+    --headLine5: bold 24px/38px var(--fontFamily);
+    --regularFont: 400 1rem/1.5rem var(--fontFamily);
+    --lightFont: 300 1.2rem/1.525rem var(--fontFamily);
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font: var(--regularFont);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-inline-size: 100%;
+}

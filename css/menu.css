@@ -1,0 +1,39 @@
+#menu-btn:checked + nav {
+    inset-inline-start: 0;
+}
+
+#menu-btn {
+    display: none
+}
+
+.menu {
+    position: absolute;
+    background: var(--green);
+    block-size: 100vh;
+    top: 0;
+    inset-inline-start: -50%;
+    inline-size: 50%;
+    transition: .3s ease-out all;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-listItem a {
+    display: block;
+    padding-inline: 1rem;
+    padding-block: .825rem;
+    text-transform: uppercase;
+    color: var(--white);
+    font: var(--lightFont);
+    transition: .3s ease-in all;
+}
+
+.menu-listItem a:hover {
+    background: var(--white);
+    color: var(--green);
+    padding-inline-start: 1.5rem;
+}

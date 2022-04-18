@@ -1,0 +1,19 @@
+.btn {
+    background: var(--green);
+    border-radius: 1.5rem;
+    color: var(--white);
+    display: inline-block;
+    padding: .5rem 1rem;
+    transition: .2s ease-out all;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    border: 2px solid var(--white);
+    color: var(--white);
+    background: transparent;
+}
+
+.btn:active {
+    transform: scale(.9);
+}
