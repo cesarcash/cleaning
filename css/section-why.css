@@ -1,0 +1,12 @@
+.section-why {
+    background: var(--linearBackground);
+}
+
+.section-why .section-content {
+    
+}
+
+.section-why .section-content h3 {
+    color: var(--white);
+    margin: 0;
+}

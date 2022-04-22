@@ -8,15 +8,44 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta property="og:title" content="DA Professional Services" />
+    <meta property="og:description" content="We are experts in cleaning at any level with more than 20 years of experience. We use the highest variety of techniques and products for cleaning and disinfection of any area or object, we also have green products to help our planet. " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://da-services.netlify.app/" />
+    <meta property="og:image" content="https://da-services.netlify.app/images/logo.png" />
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">    
 </head>
-<body>
-    <div class="header">
+<body id="top">
+    <div id="container-btnTop" hidden>
+        <a href="#top" id="btnTop">
+            <i class="icon-arrow-up2"></i>
+        </a>
+    </div>
+    <div class="header" id="header">
         <div class="wrapper">
             <div class="header-content">
                 <header>
                     <div class="header-logo">
-                        <img src="./images/logo.png" alt="Logotipo DA Professional Services">
+                        <a href="./"><img src="./images/logo.png" alt="Logotipo DA Professional Services"></a>
                     </div>
                     <div class="header-menu">
                         <label for="menu-btn"><i class="icon-menu"></i></label>
@@ -34,15 +63,6 @@
                         </nav>
                     </div>
                 </header>
-                <!-- <nav class="menu-secondary">
-                    <ul class="menu-listSecondary">
-                        <li class="menu-listSecondary-item"><a href="./">Home</a></li>
-                        <li class="menu-listSecondary-item"><a href="residential-cleaning.html">Residential cleaning</a></li>
-                        <li class="menu-listSecondary-item"><a href="commertial-cleaning.html">Commertial cleaning</a></li>
-                        <li class="menu-listSecondary-item"><a href="about-us.html">About us</a></li>
-                        <li class="menu-listSecondary-item"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav> -->
             </div>
         </div>
     </div>
@@ -60,6 +80,181 @@
             </div>
         </div>
     </section>
+
+    <section class="section-about">
+        <div class="wrapper">
+            <div class="section-content">
+
+                <nav class="menu-about">
+                    <ul class="menu-aboutList">
+                        <li class="menu-aboutList-item">
+                            <a href="#security" class="is-active menu-aboutList-itemBtn" data-description="security">Security</a>
+                        </li>
+                        <li class="menu-aboutList-item">
+                            <a href="#confidence" class="menu-aboutList-itemBtn" data-description="confidence">Confidence</a>
+                        </li>
+                        <li class="menu-aboutList-item">
+                            <a href="#professionalism" class="menu-aboutList-itemBtn" data-description="professionalism">Professionalism</a>
+                        </li>
+                        <li class="menu-aboutList-item">
+                            <a href="#saving" class="menu-aboutList-itemBtn" data-description="saving">Saving</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="security" id="security">
+                    <div>
+                        <img src="./images/security.png" alt="Security">
+                    </div>
+                    <div>
+                        <p>Our employees have the highest training to clean properly and give you assurance that your belongings will be safe in our hands.</p>
+                    </div>
+                </div>
+                <div class="confidence" id="confidence">
+                    <div>
+                        <img src="./images/confidence.png" alt="Confidence">
+                    </div>
+                    <div>
+                        <p>Our trained staff complies with the values established in the company to give confidence and security to our customers.                        </p>
+                    </div>
+                </div>
+                <div class="professionalism" id="professionalism">
+                    <div>
+                        <img src="./images/professionalism.png" alt="Professionalism">
+                    </div>
+                    <div>
+                        <p>All our established techniques, internal values, trained personnel, responsibility to our customers, respect, honesty, trust, security, among others, make us the most professional.</p>
+                    </div>
+                </div>
+                <div class="saving" id="saving">
+                    <div>
+                        <img src="./images/saving.png" alt="Saving">
+                    </div>
+                    <div>
+                        <p>With our services you can save more money compared to other prices, since we are below costs with our competitions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-offer">
+        <div class="wrapper">
+            <div class="section-content">
+                <p>Get $50 off on yuor initial cleaning</p>
+                <a href="#" class="btn">Click here</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-comercial">
+        <div class="wrapper">
+            <div class="section-content">
+                <h2>Comercial cleaning</h2>
+                <a href="#" class="btn">Click here</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-help">
+        <div class="wrapper">
+            <div class="section-content">
+                <p>How can i help you?</p>
+                <p>Connect with an DA expert to get started.</p>
+                <a href="#" class="btn">Contact us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-residential">
+        <div class="wrapper">
+            <div class="section-content">
+                <h2>Residential cleaning</h2>
+                <a href="#" class="btn">Click here</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-services">
+        <div class="wrapper">
+            <div class="section-content">
+                <h2 class="title-services">Some of our services</h2>
+                <div>
+                    <figure>
+                        <img src="./images/carpet-leaning.png" alt="Carpet cleaning">
+                        <figcaption>Carpet cleaning</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/pressure-wash.png" alt="Pressure wash">
+                        <figcaption>Pressure wash</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/waxing-floors.png" alt="Waxing floors">
+                        <figcaption>Waxing floors</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/deep-cleaning.png" alt="Deep cleaning">
+                        <figcaption>Deep cleaning</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/move-out-in.png" alt="Move out/in cleaning">
+                        <figcaption>Move out/in cleaning</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/window-cleaning.png" alt="Window cleaning">
+                        <figcaption>Window cleaning</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-desinfection">
+        <div class="wrapper">
+            <div class="section-content">
+                <h2>Desinfection services</h2>
+                <a href="#" class="btn">Click here</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-why">
+        <div class="wrapper">
+            <div class="section-content">
+                <h3>Licensed - Bonded - Insured</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer-content">
+                <div><img class="footer-logo" src="./images/logo-white.png" alt="DA Professional Services" ></div>
+                <div>
+                    <div class="whatsapp">
+                        <div>
+                            <i class="icon-whatsapp"></i>
+                        </div>
+                        <div>
+                            <p><a href="https://wa.me/+13608436296?text=hello" target="_blank">(360) 843 - 6296</a></p>
+                            <p><a href="https://wa.me/+13608436297?text=hello" target="_blank">(360) 843 - 6297</a></p>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <i class="icon-location"></i>
+                        <p>9003 e mill plain blvd Vancouver Washington 98664</p>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="link-social"><i class="icon-facebook"></i></a>
+                    <a href="#" class="link-social"><i class="icon-instagram"></i></a>
+                    <a href="#" class="link-social"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
 
 </body>
 </html>

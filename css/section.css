@@ -1,25 +1,19 @@
-section.section-intro .section-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* background-image: url('../images/background-mini4.svg'); */
-    background-image: url('../images/background-movil-1.png');
-    background-position: bottom ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-block-start: 1rem;
-    padding-block-end: 1rem;
+@import './section-intro.css';
+@import './section-about.css';
+@import './section-offer.css';
+@import './section-comercial.css';
+@import './section-help.css';
+@import './section-residential.css';
+@import './section-services.css';
+@import './section-why.css';
+@import './section-desinfection.css';
+
+section, div.section-why {
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
 }
 
-section.section-intro .section-content div img {
-    vertical-align: middle;
-}
-
-section.section-intro .section-content div:nth-of-type(1) {
-    /* border: 2px solid green; */
-}
-
-section.section-intro .section-content div:nth-of-type(2) {
-    /* border: 2px solid blue; */
-    text-align: center;    
+.section-content {
+    padding: 1.5rem;
+    text-align: center;
 }

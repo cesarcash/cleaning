@@ -1,0 +1,33 @@
+.section-desinfection {
+    background: url('../images/atomizador.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-desinfection .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-desinfection .section-content h2 {
+    margin: 0;
+    margin-block-end: 1.5rem;
+    color: var(--white);
+    font: var(--headLine3);
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px){
+    
+    .section-desinfection {
+        background-attachment: fixed;
+    }
+    
+    .section-desinfection .section-content {
+        block-size: 70vh;
+    }
+
+}

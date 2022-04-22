@@ -1,5 +1,6 @@
 @import './fonts.css';
 @import './header.css';
+@import './footer.css';
 @import './section.css';
 @import './button.css';
 
@@ -11,19 +12,24 @@
     --green: #6bbb3b;
     --white: #ffffff;
     --fontFamily: 'Montserrat', sans-serif;
-    --headLine1: bold 95px/153px var(--fontFamily);
-    --headLine2: bold 59px/95px var(--fontFamily);
-    --headLine3: bold 48px/77px var(--fontFamily);
-    --headLine4: bold 34px/55px var(--fontFamily);
-    --headLine5: bold 24px/38px var(--fontFamily);
-    --regularFont: 400 1rem/1.5rem var(--fontFamily);
+    --headLine1: bold 5.875rem/9.625rem var(--fontFamily);
+    --headLine2: bold 3.75rem/5.875rem var(--fontFamily);
+    --headLine3: bold 3rem/3.75rem var(--fontFamily);
+    --headLine4: bold 2.125rem/3.25rem var(--fontFamily);
+    --headLine5: bold 1.5rem/2.375rem var(--fontFamily);
+    --regularFont: 400 1rem/1.725rem var(--fontFamily);
     --lightFont: 300 1.2rem/1.525rem var(--fontFamily);
+    --boldFont: bold 1.2rem/1.725rem var(--fontFamily);
+    --menuItem: bold 1rem/1.725rem var(--fontFamily);
+    --linearBackground: linear-gradient(90deg, rgba(37,160,220,1) 0%, rgba(7,117,213,1) 100%);
+    --border-radius: 1.5rem;
     scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
     font: var(--regularFont);
+    position: relative;
 }
 
 a {
@@ -39,7 +45,72 @@ h1 {
     text-align: center;
 }
 
+.title-services {
+    font: var(--headLine4);
+    margin: 0;
+    margin-block-end: 3.5rem;
+}
+
 .wrapper {
     margin: 0 auto;
     max-inline-size: 100%;
+}
+
+.box-shadow {
+    box-shadow: 0 0 5px #ccc;
+}
+
+#btnTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 40px;
+    block-size: 40px;
+    color: var(--white);
+    font: var(--headLine);
+    background: var(--blue10);
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    vertical-align: middle;
+    opacity: .7;
+    transition: all .4s;
+}
+
+#btnTop i {
+    position: relative;
+    top: 2px;
+}
+
+#btnTop:hover {
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px){
+    .wrapper {
+        inline-size: 95%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    :root {
+        /* font-size: 18px; */
+        --headLine3: bold 3.3rem/3.75rem var(--fontFamily);
+        --headLine4: bold 2.4rem/3.25rem var(--fontFamily);
+        --headLine5: bold 1.8rem/2.375rem var(--fontFamily);
+        --regularFont: 400 1.1rem/1.725rem var(--fontFamily);
+        --lightFont: 300 1.65rem/2rem var(--fontFamily);
+        --boldFont: bold 1.5rem/1.725rem var(--fontFamily);
+        --menuItem: bold 1.2rem/1.725rem var(--fontFamily);
+    }
+
+    .wrapper {
+        inline-size: 80%;
+    }
+
+    .title-services {
+        margin-block-end: 6rem !important;
+    }
+
 }

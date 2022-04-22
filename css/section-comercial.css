@@ -1,0 +1,30 @@
+.section-comercial {    
+    background: url('../images/lavanderia.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-comercial .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-comercial .section-content h2 {
+    margin: 0;
+    margin-block-end: 1.5rem;
+    color: var(--white);
+    font: var(--headLine3);
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px){
+    .section-comercial {
+        background-attachment: fixed;
+    }
+    .section-comercial .section-content {
+        block-size: 70vh;
+    }
+}

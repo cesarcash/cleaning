@@ -1,0 +1,48 @@
+.section-services .section-content {
+    margin-block-start: 3rem;
+    margin-block-end: 3rem !important;
+}
+.section-services .section-content {
+
+}
+
+.section-services .section-content > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.section-services .section-content > div figure {
+    margin: 0;
+    flex: 1 1 150px;
+}
+
+.section-services .section-content > div img {
+    inline-size: 7.4375rem;
+    aspect-ratio: 1/1;
+    transition: .4s ease-in all;
+}
+
+.section-services .section-content > div figcaption {
+    font: var(--boldFont);
+}
+
+@media screen and (min-width: 1024px){
+
+    .section-services .section-content {
+        padding-block-start: 4rem;
+        padding-block-end: 6rem;
+    }
+
+    .section-services .section-content > div {
+        gap: 3rem;
+    }
+    .section-services .section-content > div figure {
+        /* flex: 1; */
+        flex: 1 1 350px;
+    }
+    .section-services .section-content > div img {
+        inline-size: 14.875rem;
+    }
+}

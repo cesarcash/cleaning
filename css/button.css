@@ -1,6 +1,6 @@
 .btn {
     background: var(--green);
-    border-radius: 1.5rem;
+    border-radius: var(--border-radius);
     color: var(--white);
     display: inline-block;
     padding: .5rem 1rem;
@@ -16,4 +16,9 @@
 
 .btn:active {
     transform: scale(.9);
+}
+
+a.is-active {
+    background: initial;
+    border: 2px solid var(--blue20);
 }

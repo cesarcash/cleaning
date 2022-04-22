@@ -1,0 +1,15 @@
+.section-offer {
+    background: rgb(37,160,220);
+    background: var(--linearBackground);
+}
+
+.section-offer .section-content {
+    
+} 
+
+.section-offer .section-content p {
+    font-size: 1.65rem;
+    color: var(--white);
+    margin: 0;
+    margin-block-end: 1.5rem;
+}

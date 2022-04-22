@@ -1,0 +1,67 @@
+@import 'menu-about.css';
+
+.section-about .section-content {
+    background-image: url('../images/background-movil-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* position: relative !important; */
+}
+
+.section-about .section-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 1.5rem; */
+    padding: 1.5rem;
+    margin-block-end: 2rem;
+}
+
+.section-about .section-content > div p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.section-about .section-content > div img {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 768px){
+    
+    .section-about .section-content {
+        background-size: contain;
+    }
+    
+    .section-about .section-content > div {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .section-about .section-content > div p {
+        text-align: start;
+    }
+
+    .section-about .section-content > div:nth-child(odd) div:nth-of-type(1){
+        order: 1;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    .section-about .section-content {
+        background: initial;
+    }
+
+    .section-about .section-content > div {
+        padding-block-start: 200px;
+        padding-block-end: 200px;
+    }
+
+    .section-about .section-content > div p {
+        font: var(--lightFont);
+    }
+
+}

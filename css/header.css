@@ -1,5 +1,13 @@
 @import './menu.css';
 
+.header {
+    background: var(--white);
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    transition: all .4s;
+}
+
 .header-content {
     position: relative;
     padding-inline-start: 1rem;
@@ -15,7 +23,6 @@
 }
 
 .header-logo {
-    /* flex: 1; */
     inline-size: 6.3125rem;
 }
 
@@ -24,12 +31,23 @@
     inline-size: 100%;
 }
 
-.header-menu {
-    /* flex: 1; */
-}
-
 .header-menu .icon-menu {
     color: var(--green);
     font-size: 2rem;
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+    
+    .header-menu .icon-menu {
+        display: none;
+    }
+
+    .header-content {
+        position: initial;
+    }
+
+    .header-logo {
+        inline-size: 8.41rem;
+    }
 }
